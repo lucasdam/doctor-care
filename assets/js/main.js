@@ -5,12 +5,12 @@ onScroll()
 function onScroll() {
     showNavOnScroll()
     showBackToTopButtonOnScroll()
-    activeteMenuAtCurrentSection(home)
-    activeteMenuAtCurrentSection(services)
-    activeteMenuAtCurrentSection(about)
+    activateMenuAtCurrentSection(home)
+    activateMenuAtCurrentSection(services)
+    activateMenuAtCurrentSection(about)
 }
 
-function activeteMenuAtCurrentSection(section) {
+function activateMenuAtCurrentSection(section) {
     const targetLine = scrollY + innerHeight / 2
 
     const sectionTop = section.offsetTop
